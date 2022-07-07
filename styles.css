@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#mynav li a{
+    font-size: 12px;
+    color: black;
+}
+
+#mynav li a:hover{
+    background-color: white;
+    color: #fa2a4e;
+}
+
+#mynav li a:after{
+    content: "";
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    width: 0;
+    height: 3px;
+    background-color: #fa2a4e;
+    transition: 0.4s ease-out;
+    border-radius: 5px;
+}
+
+#mynav li a:hover:after{
+    left: 15px;
+    width: 60%;
+}
+
+.icon-bar{
+    background-color: black;
+}
+
+h5{
+    color: #a3d4db;
+}
+
+h1{
+    font-weight: bold;
+    font-family: sans-serif;
+    padding-top: 20px;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+    color: black;
+   
+}
+
+#btn2:focus{
+    border: none;
+    outline: none;
+}
+
+#btn1:focus{
+ border: none;
+ outline: none;
+}
